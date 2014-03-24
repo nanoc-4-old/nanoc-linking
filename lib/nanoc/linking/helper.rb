@@ -75,6 +75,18 @@ module Nanoc::Linking
       @item_rep && @item_rep.path == path
     end
 
+    # Returns whether or not a target is parent of current.
+    #
+    # @param [String, Nanoc::Item, Nanoc::ItemRep] target The path/URL,
+    #   item or item representation that should be evaluated
+    def parent_target?(target)
+      # item path
+      path = target.is_a?(String) ? target : target.path
+
+      # Return true if active, false otherwise
+      @item_rep && @item_rep.path.include?(path)
+    end
+
     # Creates a HTML link using {#link_to}, except when the linked item is
     # the current one. In this case, a span element with class “active” and
     # with the given text will be returned. The HTML-escaping rules for
