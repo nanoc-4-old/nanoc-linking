@@ -1,15 +1,3 @@
-[![Build Status](https://travis-ci.org/nanoc/nanoc-linking.png)](https://travis-ci.org/nanoc/nanoc-linking)
-[![Code Climate](https://codeclimate.com/github/nanoc/nanoc-linking.png)](https://codeclimate.com/github/nanoc/nanoc-linking)
-[![Coverage Status](https://coveralls.io/repos/nanoc/nanoc-linking/badge.png?branch=master)](https://coveralls.io/r/nanoc/nanoc-linking)
+This repository was part of the initial attempt at writing nanoc 4. That attempt did not go as initially planned, and was cancelled mid May 2015.
 
-# nanoc-linking
-
-This provides functionality for linking with [nanoc](http://nanoc.ws).
-
-## Installation
-
-`gem install nanoc-linking`
-
-## Usage
-
-See the API documentation for [`Nanoc::Linking::Helper`](http://www.rubydoc.info/gems/nanoc-linking/Nanoc/Linking/Helper).
+Do not despair! There is a _true_ nanoc 4, and it lives in the [nanoc/nanoc repository](http://github.com/nanoc/nanoc). For information about nanoc 4 and how to upgrade, consult the [nanoc 4 upgrade guide](http://nanoc.ws/docs/nanoc-4-upgrade-guide/).
